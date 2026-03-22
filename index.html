@@ -3,7 +3,7 @@
 <script>
   var received = window.location.href;
   window.location.replace(
-    'http://localhost:3001/api/plaid/oauth-redirect?received_uri=' + encodeURIComponent(received)
+    'http://localhost:5173/oauth-callback?received_uri=' + encodeURIComponent(received)
   );
 </script>
 </html>
